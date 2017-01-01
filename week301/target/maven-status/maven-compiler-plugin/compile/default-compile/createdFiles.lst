@@ -1,0 +1,17 @@
+fr/eservices/soaring/model/Secteur.class
+fr/eservices/soaring/model/Profil.class
+fr/eservices/soaring/model/Produit.class
+fr/eservices/soaring/model/Region.class
+fr/eservices/soaring/model/Epreuve.class
+fr/eservices/soaring/model/Vol.class
+fr/eservices/soaring/model/Repas.class
+fr/eservices/soaring/model/Categorie.class
+fr/eservices/soaring/model/Epreuve$Type.class
+fr/eservices/soaring/model/PointPassage.class
+fr/eservices/soaring/model/Club.class
+fr/eservices/soaring/model/Epreuve$Status.class
+fr/eservices/soaring/model/Pilote.class
+fr/eservices/soaring/dao/RegistrationDaoFactory.class
+fr/eservices/soaring/dao/RegistrationDao.class
+fr/eservices/soaring/model/Reservation.class
+fr/eservices/soaring/model/Utilisateur.class

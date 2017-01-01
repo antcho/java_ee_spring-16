@@ -1,0 +1,4 @@
+test/model/JpaAnnotations.class
+test/dao/RegistrationDaoTest.class
+test/model/ModelAttributes.class
+test/model/JpaContext.class

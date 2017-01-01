@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="greeter" class="fr.eservices.sample2.impl.FrenchGreeter">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <bean id="printer" class="fr.eservices.sample2.impl.ConsolePrinter">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <bean id="welcome" class="fr.eservices.sample2.impl.SwingWelcome">
+
+    </bean>
+
+    <bean id="application" class="fr.eservices.sample2.appl.Application">
+        <property name="greeter" ref="greeter"/>
+        <property name="welcome" ref="welcome"/>
+        <property name="printer" ref="printer"/>
+    </bean>
+
+    <!-- more bean definitions go here -->
+
+</beans>
